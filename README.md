@@ -28,7 +28,7 @@ achieved tok/s: ...
 > (change `CONFIG_SPIRAM_MODE_OCT=y` to `CONFIG_SPIRAM_MODE_QUAD=y`) and set flash size to match.
 
 ## Quick start (Windows)
-1. Extract zip file "data.zip" in the same folder as flash.ps1
+1. Extract zip file "data.zip" in the same folder as \flash.ps1
 2. Install Git and Python 3.12 (PowerShell), then open a **new** PowerShell window:
    ```powershell
    winget install --id Git.Git -e
