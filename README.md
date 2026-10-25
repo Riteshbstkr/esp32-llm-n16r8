@@ -28,18 +28,18 @@ achieved tok/s: ...
 > (change `CONFIG_SPIRAM_MODE_OCT=y` to `CONFIG_SPIRAM_MODE_QUAD=y`) and set flash size to match.
 
 ## Quick start (Windows)
-
-1. Install Git and Python 3.12 (PowerShell), then open a **new** PowerShell window:
+1. Extract zip file "data.zip" in the same folder as flash.ps1
+2. Install Git and Python 3.12 (PowerShell), then open a **new** PowerShell window:
    ```powershell
    winget install --id Git.Git -e
    winget install --id Python.Python.3.12 -e
    ```
-2. Clone this repo to a **short path** (Windows path-length limits break the build otherwise):
+3. Clone this repo to a **short path** (Windows path-length limits break the build otherwise):
    ```powershell
    git clone https://github.com/<your-username>/esp32s3-tinystories-llm C:\esp\esp32s3-tinystories-llm
    cd C:\esp\esp32s3-tinystories-llm
    ```
-3. Plug the board into the **UART** port and run:
+4. Plug the board into the **UART** port and run:
    ```powershell
    powershell -ExecutionPolicy Bypass -File .\flash.ps1
    ```
